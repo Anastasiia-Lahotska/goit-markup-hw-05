@@ -801,11 +801,12 @@ button {
 }
 
 .footer-btn {
-        display: inline-flex;
+        display: block;
         padding: 8px 24px;
         justify-content: center;
         align-items: center;
-        min-width: 165px;
+        min-width: 169px;
+        height: 56px;
         color: #FFF;
         background-color: #4D5AE5;
         font-family: inherit;
@@ -831,5 +832,5 @@ button {
 }
 
 .footer-btn-prv {
-        
+
 }
