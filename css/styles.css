@@ -502,7 +502,9 @@ button {
         max-width: 264px;
 }
 
-.footer-media {}
+.footer-media {
+        margin-right: 80px;
+}
 
 .footer-title {
         color: #FFFFFF;
@@ -542,6 +544,66 @@ button {
         fill: #F4F4FD;
 }
 
+.footer-right {}
+
+
+.footer-form{
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+}
+
+.footer-input {
+        width: 264px;
+        height: 40px;
+        padding-left: 16px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        color: #FFFFFF;
+        font-size: 12px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background-color: inherit;
+        border-radius: 4px;
+        border: 1px solid #FFF;
+        outline: transparent;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+.footer-input-email::placeholder {
+        color: #FFF;
+}
+
+.footer-btn {
+        display: flex;
+        padding: 8px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        max-width: 165px;
+        color: #FFF;
+        background-color: #4D5AE5;
+        font-family: inherit;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        border: none;
+        border-radius: 4px;
+        margin: 0 auto;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+        background-color: #404BBF;
+}
+
+.footer-btn-right {
+        fill: #FFFFFF;
+        width: 24px;
+        height: 24px;
+}
 
 /* ================================== */
 
@@ -552,9 +614,9 @@ button {
         background-color: rgba(46, 47, 66, 0.4);
         top: 0;
         left: 0;
-        /*opacity: 0;
+        opacity: 0;
         visibility: hidden;
-        pointer-events: none;*/
+        pointer-events: none;
 }
 
 .modal {
@@ -666,6 +728,8 @@ button {
         font-weight: 400;
         line-height: 1.17;
         letter-spacing: 0.04em;
+        display: flex;
+        align-items: center;
 }
 
 .check-text a {
@@ -675,18 +739,21 @@ button {
 }
 
 .check-text span {
-        display: inline-block;
-        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 16px;
         height: 16px;
         border: 1px solid rgba(46, 47, 66, 0.40);
         border-radius: 2px;
         margin-right: 8px;
+        fill: transparent;
 }
 
 .check-input:checked + .check-text span {
         background-color: #404BBF;
         border: none;
+        fill: #FFFFFF;
 }
 
 .modal-check-icon {
