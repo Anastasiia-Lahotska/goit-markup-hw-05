@@ -703,7 +703,7 @@ button {
 .modal-form {}
 
 .modal-field {
-        margin-bottom: 24px;
+        margin-bottom: 8px;
 }
 
 .modal-input {
@@ -725,6 +725,11 @@ button {
 .modal-input:focus + .modal-icon {
         fill: #4D5AE5;
 }
+
+.modal-field-comment {
+        margin-bottom: 16px;
+}
+
 .modal-icon {
         fill: #2E2F42;
         position: absolute;
@@ -829,8 +834,4 @@ button {
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
-}
-
-.footer-btn-prv {
-
 }
