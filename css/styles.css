@@ -830,3 +830,7 @@ button {
         visibility: visible;
         pointer-events: auto;
 }
+
+.modal-field-pri {
+        margin-bottom: 24px;
+}
