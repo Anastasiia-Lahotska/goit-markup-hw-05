@@ -806,12 +806,12 @@ button {
 }
 
 .footer-btn {
-        display: block;
+        display: flex;
         padding: 8px 24px;
         justify-content: center;
         align-items: center;
-        min-width: 169px;
-        height: 56px;
+        min-width: 165px;
+        height: 40px;
         color: #FFF;
         background-color: #4D5AE5;
         font-family: inherit;
